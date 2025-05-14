@@ -22,6 +22,7 @@
     "postcss": "^8.5.3",
     "rollup": "^4.40.2",
     "source-map-js": "^1.2.1",
+    "test": "^3.3.0",
     "tinyglobby": "^0.2.13"
   },
   "author": "",
