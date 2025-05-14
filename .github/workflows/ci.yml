@@ -18,3 +18,9 @@ jobs:
 
       - name: "Clone the Repository"
         uses: actions/checkout@v3
+
+      - name: "Install Dependencies"
+        run: npm install
+
+      -name: "list directories"
+       run:  ls
