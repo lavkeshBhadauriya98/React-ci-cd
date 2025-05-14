@@ -20,7 +20,7 @@ jobs:
           node-version: '20'
 
       - name: "Check Node Version"
-        run: node --v
+        run: node --version
 
       - name: "Install Dependencies"
         run: npm install
