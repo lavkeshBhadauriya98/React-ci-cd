@@ -16,6 +16,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: "check node version"
+        run: node --version
+
       - name: "Clone the Repository"
         uses: actions/checkout@v3
 
